@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavigationPaginationRoomNetwork</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_image">product image</string>
+    <string name="button_for_more_things">button for more things</string>
+    <string name="lorem_ipsum">heqbvhbhzbqhfbbbqerdbhebrfbdbfvnjndrjbdhfbhebrhhbjejbfhvbhrbrfhbrhbvhbehfbghrbggjbbgjaneabgrhb\'erhbghzbehrgbhebrgh\'berhg</string>
+    <string name="info">info</string>
+    <string name="expanded_image_button">expanded image button</string>
+    <string name="description">Description</string>
+</resources>
