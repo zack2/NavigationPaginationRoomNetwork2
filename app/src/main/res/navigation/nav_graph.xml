@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="olivierloukombo.com.makeup.ui.MainFragment"
+        android:name="com.olivierloukombo.navigationpaginationroomnetwork.ui.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailMainFragment"
-        android:name="olivierloukombo.com.makeup.ui.DetailMainFragment"
+        android:name="com.olivierloukombo.navigationpaginationroomnetwork.ui.DetailMainFragment"
         android:label="fragment_detail_main"
         tools:layout="@layout/fragment_detail_main" >
         <action

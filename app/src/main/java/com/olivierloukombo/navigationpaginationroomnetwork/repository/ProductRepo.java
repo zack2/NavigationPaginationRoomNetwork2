@@ -26,7 +26,7 @@ public class ProductRepo {
 
     public ProductRepo(Application application){
         products = Network.parse(application.getApplicationContext());
-        Executor executor =  Executors.newFixedThreadPool(5);
+        Executor executor =  Executors.newCachedThreadPool();
         DatabaseApp dataBase = DatabaseApp.getInstance(application);
         productDao = dataBase.productDao();
         executor.execute(() -> productDao.insertAll(products));

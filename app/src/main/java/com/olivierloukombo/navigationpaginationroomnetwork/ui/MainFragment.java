@@ -62,7 +62,9 @@ public class MainFragment extends Fragment {
         toolbar.setTitle("Main");
         RecyclerView recyclerView = view.findViewById(R.id.recyclerview);
         recyclerView.setLayoutManager(new GridLayoutManager(view.getContext(), 2));
-        recyclerView.addItemDecoration(new SpacingItemDecoration(1, Utils.dpToPx(view.getContext(), 4), true));
+        recyclerView.addItemDecoration(new SpacingItemDecoration(1,
+                                        Utils.dpToPx(view.getContext(), 4),
+                        true));
         recyclerView.setHasFixedSize(true);
         recyclerView.setNestedScrollingEnabled(false);
         ProductAdapter productAdapter = new ProductAdapter();
